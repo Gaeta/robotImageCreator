@@ -1,0 +1,11 @@
+{
+  "name": "robotImageCreator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/Gaeta/robotImageCreator.git",
+  "author": "Donald Gaeta",
+  "license": "MIT",
+  "dependencies": {
+    "pigpio": "^3.3.1"
+  }
+}

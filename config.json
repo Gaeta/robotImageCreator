@@ -1,0 +1,17 @@
+{
+  "leftMotor": {
+    "dir": 20,
+    "step": 21,
+    "m2": 24,
+    "m1": 23,
+    "m0": 18
+  },
+  "rightMotor": {
+    "dir": 19,
+    "step": 26,
+    "m2": 22,
+    "m1": 27,
+    "m0": 17
+  },
+  "imageDirName": "image"
+}

@@ -13,5 +13,10 @@
     "m1": 27,
     "m0": 17
   },
-  "imageDirName": "image"
+  "imageDirName": "image",
+  "pen": {
+    "pin": 12,
+    "closeVal": 1000,
+    "openVal": 2000
+  }
 }

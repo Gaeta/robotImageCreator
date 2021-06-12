@@ -5,6 +5,9 @@
   "repository": "https://github.com/Gaeta/robotImageCreator.git",
   "author": "Donald Gaeta",
   "license": "MIT",
+  "scripts": {
+    "penTest": "node ./test/test_penServo.js"
+  },
   "dependencies": {
     "pigpio": "^3.3.1"
   }

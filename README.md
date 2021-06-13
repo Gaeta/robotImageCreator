@@ -39,8 +39,8 @@ Please make sure to update tests as appropriate.
    - [X] Changes width & height to fit paper
    - [X] Get Pixels
      - [X] Remove Transparent Pixels
-   - [] File Formats
+   - [ ] File Formats
      - [x] PNG
-     - [] JPEG
-     - [] SVG
-     - [] JIF
+     - [ ] JPEG
+     - [ ] SVG
+     - []  JIF

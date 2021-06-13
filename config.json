@@ -18,5 +18,10 @@
     "pin": 12,
     "closeVal": 1000,
     "openVal": 2000
+  },
+  "paperSize": {
+    "width": 816,
+    "height": 1346,
+    "PPI": 96
   }
 }

@@ -10,6 +10,12 @@ sudo apt-get update
 sudo apt-get install pigpio
 npm install --allow-root
 ```
+# Parts Required
+
+## Wiring 
+
+## 3D Prints
+
 
 ## Usage
 
@@ -24,6 +30,8 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Check List
+ - [ ] Finish Required Parts and Wiring Diagrams on README.MD
+ - [ ] Fully Document Each Line Of Code
  - [X] Pen Motor
    - [X] Opens
    - [X] Closes

@@ -28,11 +28,11 @@ Please make sure to update tests as appropriate.
    - [X] Opens
    - [X] Closes
  - [X] Motor
-   - [] Left Works
-   - [] Right Works
-   - [] Left & Right Move together
-     - [] Can go to 0,0 on startup (aka top left of paper)
-     - [] Can move to given point
+   - [ ] Left Works
+   - [ ] Right Works
+   - [ ] Left & Right Move together
+     - [ ] Can go to 0,0 on startup (aka top left of paper)
+     - [ ] Can move to given point
  - [X] Image Converter
    - [X] Reads File
    - [X] Changes to Grayscale

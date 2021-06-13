@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install pigpio
 npm install --allow-root
 ```
-# Parts Required
+## Parts Required
 
 ## Wiring 
 

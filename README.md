@@ -43,4 +43,4 @@ Please make sure to update tests as appropriate.
      - [x] PNG
      - [ ] JPEG
      - [ ] SVG
-     - []  JIF
+     - [ ]  JIF

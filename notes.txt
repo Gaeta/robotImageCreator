@@ -1,1 +1,3 @@
 The Image might come out badly cuz of the PPI size, the image is being resized to fit the paper... Meaning it might come out badly.. if 96 doesnt work got lower or higher?
+
+pen motor sometimes doesnt work...

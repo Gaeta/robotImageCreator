@@ -34,7 +34,7 @@ Please make sure to update tests as appropriate.
  - [ ] Fully Document Each Line Of Code
  - [X] Pen Motor
    - [X] Opens
-   - [X] Closes
+   - [ ] Closes
  - [X] Motor
    - [ ] Left Works
    - [ ] Right Works

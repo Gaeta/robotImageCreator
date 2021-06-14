@@ -32,7 +32,7 @@ var imageConverter = async (image /* Requires to be a buffer */) => {
       }
     }
 
-    if (filterTransparentPixels) return pixels.filter(g => g.rgba.a <= 0)
+    if (filterTransparentPixels) return pixels.filter(g => g.rgba.a > 0)
     else return pixels;
   }
 

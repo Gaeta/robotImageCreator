@@ -21,7 +21,8 @@
   },
   "paperSize": {
     "width": 816,
-    "height": 1346,
+    "height": 1056,
     "PPI": 96
-  }
+  },
+  "distanceBTMotors": 1602
 }

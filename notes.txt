@@ -6,3 +6,6 @@ pen motor sometimes doesnt work...
  bc.moveTo(Number(tox), Number(toy), doCommand)
 
 the program might need to only have the dimentions of normal paper not legal as the pen wont be able to reach the top left and right of the paper because of the 3d holder
+
+
+changed to normal paper instead of legal

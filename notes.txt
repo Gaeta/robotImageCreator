@@ -1,3 +1,8 @@
 The Image might come out badly cuz of the PPI size, the image is being resized to fit the paper... Meaning it might come out badly.. if 96 doesnt work got lower or higher?
 
 pen motor sometimes doesnt work...
+
+
+ bc.moveTo(Number(tox), Number(toy), doCommand)
+
+the program might need to only have the dimentions of normal paper not legal as the pen wont be able to reach the top left and right of the paper because of the 3d holder

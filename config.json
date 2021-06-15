@@ -25,11 +25,19 @@
     "PPI": 96
   },
   "distanceBTMotors": 1602,
-  "minTimePerStep": 1,
+  "minTimePerStep": 100,
   "delay":  2,
   "motor": {
     "steps": 200,
     "speed": 1,
-    "stepSize": "quarter"
+    "stepSize": "half"
+  },
+  "chains": {
+    "left": 1056,
+    "right": 1032
+  },
+  "image": {
+    "file": "microsoftLogo.png",
+    "folder": "image"
   }
 }

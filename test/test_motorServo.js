@@ -5,7 +5,8 @@ const Config = require('../config.json');
   console.log('--- Checking Motor Servo Test ---')
   var controller = await require('../src/modules/controller')(); // Our Controllers
   console.log('Controller Loaded');
-  controller.leftMotor.real.in(100)
+  controller.leftMotor.real.in(200)
+  controller.rightMotor.real.out(200)
 })();
 
 // let pulseWidth = 1000;

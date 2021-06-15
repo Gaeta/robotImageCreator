@@ -19,7 +19,7 @@ var controller = async () => {
 
   // The Step Movement Functions
 
-  internal._step = function (motorSelect = 'left', count, direction = 'forward', speed = Config.motor.speed, minTimePerStep = Config.motor.minTimePerStep) {
+  internal._step = function (motorSelect = 'left', count, direction = 'forward', speed = Config.motor.speed, minTimePerStep = Config.minTimePerStep) {
     return new Promise (async (resolve, reject) => {
       const motor = internal[`${motorSelect}Motor`]; // Finds motor were using
       if (!motor) throw new Error('Unknown motor');
@@ -120,18 +120,18 @@ var controller = async () => {
   }
 
   await new Promise(async (resolve, reject) => {      
-    for (i=0; i < internal.leftMotor.length; i++) {
-      const motor = internal.leftMotor[i];
-      const step = intneral.stepSize[i];
+    for (i=0; i < internal.leftMotor.ms.length; i++) {
+      const motor = internal.leftMotor.ms[i];
+      const step = internal.stepSize[i];
       motor.digitalWrite(step);
     }
     return resolve()
   });
 
   await new Promise(async (resolve, reject) => {      
-    for (i=0; i < internal.rightMotor.length; i++) {
-      const motor = internal.rightMotor[i];
-      const step = intneral.stepSize[i];
+    for (i=0; i < internal.rightMotor.ms.length; i++) {
+      const motor = internal.rightMotor.ms[i];
+      const step = internal.stepSize[i];
       motor.digitalWrite(step);
     }
     return resolve()

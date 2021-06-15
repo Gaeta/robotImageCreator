@@ -8,7 +8,8 @@
   "scripts": {
     "penTest": "node ./test/test_penServo.js",
     "imageTest": "node ./test/test_imageConverter.js",
-    "motorTest": "node ./test/test_motorServo.js"
+    "motorTest": "node ./test/test_motorServo.js",
+    "start": "node ."
   },
   "dependencies": {
     "image-parser": "^1.2.8",

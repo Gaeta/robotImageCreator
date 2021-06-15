@@ -22,7 +22,8 @@ fs.readFile(path.join(__dirname, 'microsoftLogo.png'), async function(err, data)
   console.log('Pixels w/o Transparent Filter:', (imageConverter.pixels().length || 0).toLocaleString("en-US"), 'pixels');
   console.log('Pixels w/ Transparent Filter:', (imageConverter.pixels(true).length || 0).toLocaleString("en-US"), 'pixels');
 
-  console.log(imageConverter.pixels(true))
+  pixels = imageConverter.pixels(true);
+  console.log(pixels[0], pixels[350])
 })
 
 // (async () => {

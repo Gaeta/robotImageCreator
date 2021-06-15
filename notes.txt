@@ -9,3 +9,8 @@ the program might need to only have the dimentions of normal paper not legal as 
 
 
 changed to normal paper instead of legal
+
+
+seems motor melts the plastic
+
+the steps might need to be adjusted more

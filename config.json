@@ -24,5 +24,12 @@
     "height": 1056,
     "PPI": 96
   },
-  "distanceBTMotors": 1602
+  "distanceBTMotors": 1602,
+  "minTimePerStep": 1,
+  "delay":  2,
+  "motor": {
+    "steps": 200,
+    "speed": 1,
+    "stepSize": "quarter"
+  }
 }
